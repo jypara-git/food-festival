@@ -5,7 +5,8 @@
   "main": "assets/js/script.js",
   "scripts": {
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "file-loader": "^6.2.0",
     "webpack": "^4.43.0",
     "webpack-bundle-analyzer": "^4.4.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
